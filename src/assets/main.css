@@ -1,0 +1,7 @@
+@import './base.css';
+
+#app {
+  float: left;
+  width: 100%;
+  position: relative;
+}
