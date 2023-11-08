@@ -50,6 +50,21 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--vt-c-text-dark-2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--vt-c-divider-dark-2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vt-c-indigo);
+}
+
 *,
 *::before,
 *::after {

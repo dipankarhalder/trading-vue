@@ -20,6 +20,7 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
               <li v-for="item in tableheader" :key="item">
                 {{item}}
               </li>
+              <li>&nbsp;</li>
             </ul>
             <div class="app_dash_table_body">
               <ul class="app_dash_table_list">
@@ -29,8 +30,15 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
                   <p>{{item.name}}</p>
                   <p>{{item.change1}}</p>
                   <p>{{item.change2}}</p>
-                  <p>{{item.buy}}</p>
-                  <p>{{item.sell}}</p>
+                  <p class="buy">
+                    <span v-if="item.isBuy" class="purchased">{{item.buy}}</span>
+                    <span v-else>{{item.buy}}</span>
+                  </p>
+                  <p class="sell">
+                    <span v-if="item.isSell" class="sold">{{item.sell}}</span>
+                    <span v-else>{{item.buy}}</span>
+                  </p>
+                  <p class="action"><span>+</span></p>
                 </li>
               </ul>
             </div>
@@ -72,7 +80,7 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
 }
 .app_dashboard_head_link{
   display: flex;
-  padding: 10px 20px;
+  padding: 10px 16px;
   border-bottom: 1px solid var(--vt-c-text-dark-2);
 }
 .app_dashboard_head_link li{
@@ -83,23 +91,111 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
   margin-right: 8px;
   padding: 4px 12px;
   border-radius: 3px;
+  transition: 0.5s;
+  cursor: pointer;
   background: var(--vt-c-text-dark-2);
+}
+.app_dashboard_head_link li:first-child, 
+.app_dashboard_head_link li:hover{
+  background: var(--vt-c-indigo);
+  color: var(--white);
+  transition: 0.5s;
 }
 .app_dashboard_table{
   display: flex;
   flex-direction: column;
 }
-.app_dash_table_header ul {
+.app_dash_table_header > ul {
   display: flex;
   padding-left: 0px;
   justify-content: space-between;
+  background: var(--vt-c-text-dark-2);
+}
+.app_dash_table_header > ul > li {
+  padding: 6px 0px;
+  font-weight: 700;
+}
+.app_dash_table_header > ul > li:nth-child(3) {
+  width: calc(36% - 40px);
+}
+.app_dash_table_header > ul > li:nth-child(2),
+.app_dash_table_header > ul > li:nth-child(4),
+.app_dash_table_header > ul > li:nth-child(5), 
+.app_dash_table_header > ul > li:nth-child(6),
+.app_dash_table_header > ul > li:nth-child(7) {
+  width: 10%;
+}
+.app_dash_table_header > ul > li:nth-child(8) {
+  width: 40px;
+}
+.app_dash_table_header > ul > li:nth-child(1) {
+  width: 14%;
+  padding-left: 16px;
 }
 .app_dash_table_body ul.app_dash_table_list{
   display: flex;
+  padding-left: 0px;
   flex-direction: column;
+  overflow: auto;
+  height: calc(100vh - 130px);
 }
-.app_dash_table_list li{
+.app_dash_table_list > li{
   display: flex;
+  padding: 9px 0px;
   justify-content: space-between;
+  border-bottom: 1px solid var(--vt-c-text-dark-2);
+}
+.app_dash_table_list > li p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.app_dash_table_list > li > p:nth-child(3) {
+  width: calc(36% - 40px);
+}
+.app_dash_table_list > li > p:nth-child(2),
+.app_dash_table_list > li > p:nth-child(4),
+.app_dash_table_list > li > p:nth-child(5), 
+.app_dash_table_list > li > p:nth-child(6),
+.app_dash_table_list > li > p:nth-child(7) {
+  width: 10%;
+}
+.app_dash_table_list > li > p:nth-child(8) {
+  width: 40px;
+}
+.app_dash_table_list > li > p:nth-child(1) {
+  width: 14%;
+  padding-left: 16px;
+}
+.app_dash_table_list > li > p.buy > span, 
+.app_dash_table_list > li > p.sell > span {
+  width: 90%;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  float: left;
+  border: 1px solid var(--vt-c-text-light-2);
+}
+.app_dash_table_list > li > p.buy > span.purchased, 
+.app_dash_table_list > li > p.sell > span.sold {
+  background: var(--vt-c-text-light-2);
+  color: var(--white);
+}
+.app_dash_table_list > li > p.action > span {
+  padding: 3px 9px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  float: left;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid var(--vt-c-text-light-2);
+}
+.app_dash_table_list > li > p.action > span:hover{
+  background: var(--vt-c-indigo);
+  color: var(--white);
+  transition: 0.5s;
 }
 </style>

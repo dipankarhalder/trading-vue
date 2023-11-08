@@ -19,6 +19,176 @@ export const tablebody = [
     change1: '+0.10%',
     change2: '+0.12',
     buy: '$124.5',
+    sell: '$119.5',
+    isBuy: true,
+    isSell: true
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5',
+    isSell: true
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    isBuy: true,
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    isBuy: true,
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    isBuy: true,
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    isSell: true,
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
     sell: '$119.5'
   },
   {
@@ -36,6 +206,236 @@ export const tablebody = [
     name: 'ADIDAS',
     change1: '+0.10%',
     change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isBuy: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    isBuy: true,
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    isSell: true,
+    change1: '+0.10%',
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    isSell: true,
+    change2: '+0.12',
+    buy: '$124.5',
+    sell: '$119.5'
+  },
+  {
+    exchange: 'XETR',
+    symbol: 'ADSGn',
+    name: 'ADIDAS',
+    change1: '+0.10%',
+    change2: '+0.12',
+    isSell: true,
     buy: '$124.5',
     sell: '$119.5'
   }
