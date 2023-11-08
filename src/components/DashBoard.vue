@@ -5,7 +5,16 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
 <template>
   <div class="app_dashboard">
     <div class="app_dashboard_header">
-
+      <div class="app_select">
+        <select v-model="selected">
+          <option value="All Exchanges">All Exchanges</option>
+          <option>Nefty 500</option>
+          <option>Airbus Group</option>
+        </select>
+      </div>
+      <div class="app_inputs">
+        <input placeholder="Search" :value="text" @input="event => text = event.target.value">
+      </div>
     </div>
     <div class="app_dashboard_body">
       <div class="app_dashboard_body_left">
@@ -59,8 +68,32 @@ import { dashboardlistitems, tableheader, tablebody } from './utility/content'
   border-left: 1px solid var(--vt-c-text-dark-2);
 }
 .app_dashboard_header{
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
   height: 50px;
   border-bottom: 1px solid var(--vt-c-text-dark-2);
+}
+.app_select {
+  margin-right: 10px;
+}
+.app_select select{
+  height: 30px;
+  width: 240px;
+  font-size: 14px;
+  color: #000000;
+  padding: 0px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--vt-c-divider-dark-2);
+}
+.app_inputs input {
+  height: 30px;
+  width: 48rem;
+  font-size: 14px;
+  color: #000000;
+  padding: 0px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--vt-c-divider-dark-2);
 }
 .app_dashboard_body{
   display: flex;

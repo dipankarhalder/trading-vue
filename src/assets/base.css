@@ -75,8 +75,6 @@
 
 body {
   min-height: 100vh;
-  /* color: var(--color-text); */
-  /* background: var(--color-background); */
   line-height: 1.5;
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -88,4 +86,8 @@ body {
 ul,
 li {
   list-style: none;
+}
+input,
+select {
+  font-family: 'Nunito', sans-serif;
 }
