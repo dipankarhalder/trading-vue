@@ -16,9 +16,20 @@ import { sidebaritems } from './utility/content'
         <!-- <li><v-icon name="activity" class="v-icon"></v-icon></li>
         <li><v-icon name="pocket"></v-icon></li> -->
       </ul>
+      <Chart />
     </div>
   </div>
 </template>
+
+<script>
+import Chart from './Chart.component.vue'
+export default {
+  name: 'app',
+  components: {
+    Chart
+  },
+}
+</script>
 
 <style scoped>
 .app_sidebar {
